@@ -1,6 +1,6 @@
 # Jellyfin-Media-Organizer
 
-Jellyfin-Media-Organizer 是一个基于 Python 和 OpenAI 的自动化工具，用于整理和重命名原始的电影或电视剧文件，使其符合 [Jellyfin](https://jellyfin.org/) 媒体库的命名和分类要求。
+Jellyfin-Media-Organizer 是一个基于 Python 和 OpenAI 的自动化工具，使用豆瓣信息整理和重命名原始的电影或电视剧文件，使其符合 [Jellyfin](https://jellyfin.org/) 媒体库的命名和分类要求。
 
 ## 功能特点
 
@@ -18,6 +18,12 @@ export OPENAI_API_KEY=your_openai_api_key
 export OPENAI_API_BASE=
 export OPENAI_API_VERSION=
 poetry run python main.py
+```
+``` bash
+❯ poetry run python main.py
+Renamed 'download/电影/西游记.mp4' to 'download/电影/西游记 (1986).mp4'.
+Renamed 'download/电视剧/白夜破晓/01.mp4' to 'download/电视剧/白夜破晓/Season 1/白夜破晓(2024) - S01E01 - 第一集.mp4'.
+Renamed 'download/电视剧/白夜破晓/02.mp4' to 'download/电视剧/白夜破晓/Season 1/白夜破晓(2024) - S01E02 - 第二集.mp4'.
 ```
 
 ## 更换 OpenAI api  

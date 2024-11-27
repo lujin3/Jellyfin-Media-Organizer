@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "organize-media"
+version = "0.1.0"
+description = ""
+authors = ["lujin"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "^1.55.1"
+requests = "^2.32.3"
+bs4 = "^0.0.2"
+
+
+[[tool.poetry.source]]
+name = "mirrors"
+url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple/"
+priority = "primary"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
