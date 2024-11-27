@@ -28,4 +28,4 @@ Renamed 'download/电视剧/白夜破晓/02.mp4' to 'download/电视剧/白夜�
 
 ## 更换 OpenAI api  
 默认使用 AzureOpenAI
-更换其他请修改 chat_ai.py 中 client 定义 参考[openai-python](https://github.com/openai/openai-python.git)
+更换其他请修改 chat_ai.py 中 client 定义 参考 [openai-python](https://github.com/openai/openai-python.git)
